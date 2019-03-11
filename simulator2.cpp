@@ -52,7 +52,7 @@ int main(){
                 else Ants[j][2] -= 1;
             }
             if((Ants[j][0] == 0 && Ants[j][2] == 1) || (Ants[j][0] == a-1 && Ants[j][2] == 3) || (Ants[j][1] == 0 && Ants[j][2] == 2) || (Ants[j][1] == b-1 && Ants[j][2] == 4)){
-                Ants[j][3] == 0;
+                Ants[j][3] = 0;
                 if(Pole[Ants[j][0]][Ants[j][1]] == 3) Pole[Ants[j][0]][Ants[j][1]] = 0;
                 if(Pole[Ants[j][0]][Ants[j][1]] == 2) Pole[Ants[j][0]][Ants[j][1]] = 1;
                 if(Pole[Ants[j][0]][Ants[j][1]] > 3) Pole[Ants[j][0]][Ants[j][1]] -= 2;
